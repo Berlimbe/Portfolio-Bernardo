@@ -1,12 +1,12 @@
-# 💼 Portfólio Profissional & Currículo Interativo — Bernardo
+# Portfólio Profissional & Currículo Interativo — Bernardo
 
 Bem-vindo ao repositório do meu portfólio profissional. Este projeto foi desenvolvido para centralizar minha trajetória acadêmica, experiências na indústria e projetos práticos nas áreas de **Desenvolvimento de Software (TI)**, **Business Intelligence & Ciência de Dados** e **Liderança & Gestão**.
 
-🔗 **Acesse o portfólio online:** [Em breve na Vercel](#)
+**Acesse o portfólio online:** [Em breve na Vercel](#)
 
 ---
 
-## 🎯 Sobre o Projeto
+## Sobre o Projeto
 
 A aplicação funciona como uma *Single Page Application (SPA)* leve e responsiva, projetada com arquitetura **Data-Driven** (orientada a dados) para facilitar a manutenção contínua e adição de novos projetos.
 
@@ -18,7 +18,7 @@ A aplicação funciona como uma *Single Page Application (SPA)* leve e responsiv
 
 ---
 
-## 🛠️ Tecnologias e Funcionalidades
+## Tecnologias e Funcionalidades
 
 * **HTML5 Semântico & CSS3 Moderno:** Estilização com variáveis nativas (*CSS Variables*), layout responsivo e identidade visual minimalista em preto, branco, tons de azul e detalhes dourados.
 * **JavaScript Vanilla (ES6+):** Renderização dinâmica de cards a partir de um objeto central de dados (`script.js`), navegação por `#hash` e fallback inteligente para imagens de projetos.
@@ -27,7 +27,7 @@ A aplicação funciona como uma *Single Page Application (SPA)* leve e responsiv
 
 ---
 
-## 📁 Estrutura de Arquivos
+## Estrutura de Arquivos
 
 ```text
 Portfolio-Bernardo/
@@ -36,12 +36,9 @@ Portfolio-Bernardo/
  ├── script.js        # Objeto DADOS e lógica de renderização/navegação
  ├── README.md        # Documentação do repositório
  └── assets/          # Foto de perfil, currículo em PDF e prints dos projetos
-
-´´´
-
-## 📬 Contato
-
-* **LinkedIn: ** [Adicione seu link aqui].
-* **GitHub: ** [Adicione seu link aqui].
-
+```
 ---
+## Contato
+
+* **LinkedIn: **(https://www.linkedin.com/in/bernardo-almeida-29b126213/).
+* **GitHub: **(https://github.com/Berlimbe).
