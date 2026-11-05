@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do meu portfólio profissional. Este projeto foi desenvolvido para centralizar minha trajetória acadêmica, experiências na indústria e projetos práticos nas áreas de **Desenvolvimento de Software (TI)**, **Business Intelligence & Ciência de Dados** e **Liderança & Gestão**.
 
-**Acesse o portfólio online:** [Em breve na Vercel](#)
+**Acesse o portfólio online:** (https://portfolio-bernardo-three.vercel.app)
 
 ---
 
@@ -40,5 +40,5 @@ Portfolio-Bernardo/
 ---
 ## Contato
 
-* **LinkedIn: **(https://www.linkedin.com/in/bernardo-almeida-29b126213/).
-* **GitHub: **(https://github.com/Berlimbe).
+* LinkedIn: (https://www.linkedin.com/in/bernardo-almeida-29b126213/).
+* GitHub: (https://github.com/Berlimbe).
