@@ -1,0 +1,11 @@
+PASTA DE IMAGENS E ARQUIVOS DO PORTFÓLIO
+
+Coloque aqui:
+  - perfil.jpg               -> sua foto de perfil (quadrada, ex.: 800x800)
+  - curriculo-bernardo.pdf   -> seu currículo em PDF (botão "Baixar currículo")
+  - projeto-xxx.jpg          -> capturas de tela dos projetos (16:9, ex.: 1280x720)
+
+Depois, no script.js, preencha o campo "imagem" do projeto com o caminho,
+por exemplo:  imagem: "assets/projeto-tukan.jpg"
+
+Sem a foto, o site mostra um visual padrão elegante (gradiente com ícone).
