@@ -60,18 +60,17 @@
           <p class="eyebrow">Tecnologia · Dados · Gestão</p>
           <h1>Olá, eu sou o <span class="grad">Bernardo</span></h1>
           <p class="lead">
-            Me chamo Bernardo, tenho 20 anos e sou um profissional de Tecnologia, Dados e Gestão com perfil
-            analítico, autocrítico, autoconsciente e autodidata.
+            Profissional em construção entre Tecnologia, Dados e Gestão, com base em Engenharia de Software, Desenvolvimento de Sistemas e Administração.   
           </p>
           <p>
-            Sou reconhecido pelo capricho, disciplina e dedicação profunda a cada objetivo, buscando sempre
-            entregar excelência técnica e interpessoal. Gosto de examinar cenários de forma estruturada — com
-            começo, meio e fim — articulando razão, ação e solução para resolver problemas complexos e gerar
-            impacto real.
+            Movido por desafios, combino raciocínio estruturado e pensamento analítico para diagnosticar gargalos, automatizar fluxos e construir ferramentas escaláveis.
+          </p>
+          <p>
+            Sou reconhecido pelo rigor técnico, capricho nas entregas e postura colaborativa, articulando razão e ação para apoiar tomadas de decisão e impulsionar resultados.
           </p>
 
           <ul class="chips" aria-label="Perfil">
-            <li>Analítico</li><li>Autocrítico</li><li>Autoconsciente</li><li>Autodidata</li>
+            <li>Analítico</li><li>Resolutivo</li><li>Melhoria Contínua</li><li>Autodidata</li>
           </ul>
 
           <div class="hero-actions">
@@ -82,6 +81,10 @@
             <a class="btn btn-ghost" id="link-github" href="#" target="_blank" rel="noopener noreferrer">
               <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.95.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
               GitHub
+            </a>
+            <a class="btn btn-ghost" id="link-email" href="#" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              E-mail
             </a>
             <a class="btn btn-gold" id="link-curriculo" href="#" download>
               <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></svg>
@@ -138,16 +141,15 @@
           <article class="card">
             <h3>Vida pessoal</h3>
             <p>
-              Valorizo o equilíbrio entre alta performance profissional e vida pessoal, gostando de pedalar,
-              viajar, ler e dedicar tempo à família e aos amigos.
+              Meus objetivos pessoais e as pessoas ao meu redor são a base da minha dedicação diária aos estudos e ao trabalho.
+              No tempo livre, gosto de pegar a bicicleta para pedalar, conhecer novos lugares, ler e compartilhar bons momentos com a família e os amigos.
             </p>
           </article>
           <article class="card">
             <h3>Visão de futuro</h3>
             <p>
-              Busco oportunidades estratégicas em Análise e Ciência de Dados, projetos freelancers de soluções
-              digitais e futuras posições de liderança, além de planejar expandir minha formação para
-              Administração ou Psicologia.
+              Busco oportunidades estratégicas para unir tecnologia, inteligência de dados e visão administrativa na resolução de problemas complexos. 
+              Planejo expandir continuamente minha formação multidisciplinar e assumir posições de liderança, entregando soluções escaláveis e resultados consistentes por onde passar.
             </p>
           </article>
         </div>
@@ -187,14 +189,54 @@
       </div>
     </section>
 
+    <!-- ===================== PÁGINA DE ESTUDO DE CASO (preenchida pelo script.js) ===================== -->
+    <!-- URL: #projeto/id-do-projeto  |  o conteúdo vem do campo "estudoDeCaso" em DADOS -->
+    <section class="page" id="page-projeto" data-page="projeto" hidden>
+      <div id="projeto-conteudo"></div>
+    </section>
+
   </main>
 
   <footer class="footer">
     <div class="container footer-inner">
-      <span>© <span id="ano"></span> Bernardo</span>
-      <span class="muted">Feito com HTML, CSS e JavaScript</span>
+      <div class="footer-info">
+        <span>© <span id="ano"></span> Bernardo Aurelio Almeida Rosa</span>
+        <span class="muted">Feito com HTML, CSS e JavaScript</span>
+      </div>
+
+      <div class="footer-contacts">
+        <a href="mailto:bernardoaurelioa@gmail.com" id="footer-email" class="footer-link" title="Clique para copiar o e-mail">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          <span id="footer-email-text">bernardoaurelioa@gmail.com</span>
+        </a>
+
+        <a href="https://wa.me/5541998014523" target="_blank" rel="noopener noreferrer" class="footer-link" title="Conversar no WhatsApp">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>(41) 99801-4523</span>
+        </a>
+      </div>
     </div>
   </footer>
+
+  <!-- ===================== LIGHTBOX (zoom das imagens da galeria) ===================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualizador de imagens" hidden>
+    <div class="lb-top">
+      <span class="lb-count" id="lb-count" aria-live="polite"></span>
+      <button class="lb-btn" id="lb-close" type="button" aria-label="Fechar (Esc)">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="lb-stage">
+      <button class="lb-btn lb-nav lb-prev" id="lb-prev" type="button" aria-label="Imagem anterior (←)">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <img class="lb-img" id="lb-img" alt="">
+      <button class="lb-btn lb-nav lb-next" id="lb-next" type="button" aria-label="Próxima imagem (→)">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+    <p class="lb-cap" id="lb-cap"></p>
+  </div>
 
   <script src="script.js"></script>
 </body>
