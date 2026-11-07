@@ -600,10 +600,32 @@ O Painel TUKAN foi pensado como uma solução intuitiva e escalável: simples de
     ligar("#link-github", github);
     ligar("#link-curriculo", curriculo);
     
+    //func. E-mail
     const linkGmailWeb = email && email.trim() 
       ? `https://mail.google.com/mail/?view=cm&fs=1&to=${email.trim()}` 
       : "";
     ligar("#link-email", linkGmailWeb);
+    const configurarCopiaEmail = (seletorBotao, seletorTexto) => {
+      const btn = $(seletorBotao);
+      if (!btn || !email) return;
+      
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        navigator.clipboard.writeText(email.trim()).then(() => {
+          const alvoTexto = seletorTexto ? $(seletorTexto) : btn;
+          const original = alvoTexto.innerHTML;
+          
+          alvoTexto.innerHTML = seletorTexto 
+            ? "E-mail copiado!" 
+            : `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Copiado!`;
+            
+          setTimeout(() => { alvoTexto.innerHTML = original; }, 2000);
+        });
+      });
+    };
+
+    configurarCopiaEmail("#link-email");
+    configurarCopiaEmail("#footer-email", "#footer-email-text");
 
     // Foto: só remove o estado "sem-foto" se a imagem realmente carregar
     const avatar = $("#avatar");
